@@ -28,6 +28,10 @@ jobs:
           # Fix Git safe directory issue
           git config --global --add safe.directory /var/www/capital-trust-properties-app
 
+          # ⚠️ Discard all local changes
+          git reset --hard HEAD
+          git clean -fd
+
           echo "📥 Pulling latest code from production branch..."
           git pull origin production
 
