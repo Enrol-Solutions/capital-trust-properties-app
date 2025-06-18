@@ -68,7 +68,7 @@
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-modern fixed-top">
-        <a class="navbar-brand" href="{{ route('admin.dashboard') }}"></i><img width="80px" height="40px" src="https://ctp.lk/wp-content/uploads/CTP-NEW-LOGO.png"/></a>
+        <a class="navbar-brand" href="{{ route('admin.dashboard') }}"></i><img width="90px" height="40px" src="https://i.ibb.co/JWf6Hk5t/New-Project.png"/></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-bars" style="color: white;"></i>
         </button>

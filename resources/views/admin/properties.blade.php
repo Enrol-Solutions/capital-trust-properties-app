@@ -100,7 +100,7 @@
                             @endif
 
                              @if($property->description!=='Requirements')
-                            <p class="card-text col-12 "> {{$property->description}}</p>
+                            <p class="card-text col-12 "><b>Description:</b> {{$property->description}}</p>
                             @endif
                             @php
                             $pagin=  $property->images()->paginate(3,['*'],'images')
@@ -137,7 +137,7 @@
                         </form>
                         @endif  
   
-                                <a href="#" class="btn btn-warning btn-sm" data-bs-toggle="modal" data-bs-target="#editPropertyModal" 
+                                <!-- <a href="#" class="btn btn-warning btn-sm" data-bs-toggle="modal" data-bs-target="#editPropertyModal" 
                                    data-id="{{ $property->id }}" 
                                    data-property_type="{{ ucfirst($property->property_type) }}" 
                                    data-deal_type="{{ ucfirst($property->deal_type) }}" 
@@ -148,7 +148,7 @@
                                    data-location="{{ $property->location }}" 
                                    title="Edit Property">
                                     <i class="fas fa-edit"></i>
-                                </a>
+                                </a> -->
                                 <form method="POST" action="{{ route('properties.destroy', $property->id) }}" class="d-inline">
                                     @csrf
                                     @method('DELETE')
