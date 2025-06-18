@@ -22,7 +22,7 @@ jobs:
         run: |
           ssh -tt -o StrictHostKeyChecking=no ubuntu@54.179.119.176 << 'EOF'
           set -e
-          cd /home/ubuntu/your-laravel-project-folder
+          cd /var/www/capital-trust-properties-app
           git pull origin production
           composer install --no-interaction --prefer-dist --optimize-autoloader
           php artisan migrate --force
