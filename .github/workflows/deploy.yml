@@ -1,4 +1,4 @@
-name: Deploy Laravel App to Lightsail
+name: Deploy Laravel to Lightsail
 
 on:
   push:
@@ -10,24 +10,24 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
+      - name: Checkout code
+        uses: actions/checkout@v3
 
-    - name: Set up SSH
-      run: |
-        mkdir -p ~/.ssh
-        echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_rsa
-        chmod 600 ~/.ssh/id_rsa
-        ssh-keyscan -H 54.179.119.176 >> ~/.ssh/known_hosts
+      - name: Setup SSH key
+        uses: webfactory/ssh-agent@v0.9.0
+        with:
+          ssh-private-key: ${{ secrets.LIGHTSAIL_SSH_KEY }}
 
-    - name: Deploy via SSH
-      run: |
-        ssh -i ~/.ssh/id_rsa ubuntu@54.179.119.176 << 'EOF'
-          cd /var/www/capital-trust-properties-app
-          git pull origin main
-          composer install --no-interaction --prefer-dist --optimize-autoloader
-          php artisan migrate --force
-          php artisan config:cache
-          php artisan route:cache
-          php artisan view:cache
-        EOF
+      - name: Deploy to Lightsail
+        run: |
+          ssh -o StrictHostKeyChecking=no ubuntu@54.179.119.176 << 'EOF'
+            cd /home/ubuntu/your-laravel-project-folder
+            git pull origin production
+            composer install --no-interaction --prefer-dist --optimize-autoloader
+            php artisan migrate --force
+            php artisan config:cache
+            php artisan route:cache
+            php artisan view:cache
+            sudo systemctl reload php8.1-fpm # or php7.x-fpm
+            sudo systemctl restart nginx
+          EOF
