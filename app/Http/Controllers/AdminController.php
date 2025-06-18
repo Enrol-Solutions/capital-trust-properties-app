@@ -78,7 +78,7 @@ class AdminController extends Controller
   }
   public function adminApprovedProperties()
   {
-    $properties =  Property::where('status','active')->with('mainImage') // Fetch one image per property
+    $properties =  Property::where('status','active')->with('mainImage') 
     ->paginate(1,['*'],'properties'); 
     $user= new User();
     $owner = new Owner();

@@ -336,8 +336,31 @@
         <div class="container overlap-gap-section">
             <div class="row align-items-center">
                 <div class="col-xl-5 col-lg-6 md-mb-50px">
-                    <span class="fs-20 d-inline-block mb-15px text-base-color" data-anime="{ &quot;translateY&quot;: [30, 0], &quot;opacity&quot;: [0,1], &quot;duration&quot;: 600, &quot;delay&quot;: 0, &quot;staggervalue&quot;: 300, &quot;easing&quot;: &quot;easeOutQuad&quot; }">How it works in Capital Trust</span>
-                    <h2 class="alt-font fw-500 text-dark-gray ls-minus-1px shadow-none sm-w-80 xs-w-100" data-shadow-animation="true" data-animation-delay="700" data-anime="{ &quot;translateY&quot;: [30, 0], &quot;opacity&quot;: [0,1], &quot;duration&quot;: 600, &quot;delay&quot;: 200, &quot;staggervalue&quot;: 300, &quot;easing&quot;: &quot;easeOutQuad&quot; }">Steps to rent your <span class="fw-700 text-highlight">dream property.<span class="bg-base-color h-10px bottom-10px opacity-3 separator-animation"></span></span></h2>
+                    <!-- <span class="fs-20 d-inline-block mb-15px text-base-color" data-anime="{ &quot;translateY&quot;: [30, 0], &quot;opacity&quot;: [0,1], &quot;duration&quot;: 600, &quot;delay&quot;: 0, &quot;staggervalue&quot;: 300, &quot;easing&quot;: &quot;easeOutQuad&quot; }">How it works in Capital Trust</span> -->
+                    <div class="container text-center my-5">
+  <h2 
+    class="fw-semibold text-dark"
+    style="font-size: 2.5rem; letter-spacing: -0.5px; line-height: 1.3; font-family: 'Poppins', sans-serif;"
+  >
+    Steps to rent your 
+    <span 
+      class="fw-bold text-white px-3 py-1 rounded"
+      style="background-color: #28a745; position: relative; display: inline-block;"
+    >
+      dream property.
+      <span 
+        style="position: absolute; left: 0; bottom: -5px; height: 4px; width: 100%; background-color: rgba(40, 167, 69, 0.3); border-radius: 2px;"
+      ></span>
+    </span>
+  </h2>
+  <p 
+    class="mt-3 mx-auto"
+    style="max-width: 600px; font-size: 1rem; color: #6c757d;"
+  >
+    A quick, modern and smooth way to find and rent your ideal home, office, or business space.
+  </p>
+</div>
+
                     <div class="row row-cols-1 mt-50px" data-anime="{ &quot;el&quot;: &quot;childs&quot;, &quot;translateY&quot;: [30, 0], &quot;opacity&quot;: [0,1], &quot;duration&quot;: 600, &quot;delay&quot;: 300, &quot;staggervalue&quot;: 300, &quot;easing&quot;: &quot;easeOutQuad&quot; }">
 
                         <div class="col-12 process-step-style-05 position-relative hover-box">
@@ -392,7 +415,7 @@
                 </div>
                 <div class="col-xl-7 col-lg-6 position-relative" data-anime="{ &quot;effect&quot;: &quot;slide&quot;, &quot;color&quot;: &quot;#262b35&quot;, &quot;direction&quot;:&quot;tb&quot;, &quot;easing&quot;: &quot;easeOutQuad&quot;, &quot;delay&quot;:50}">
                     <figure class="position-relative m-0">
-                        <img src="/images/main/sell-img.webp" alt>
+                        <img src="https://luxely.lk/img/properties/8157207-9413443.jpeg" alt>
                         <figcaption class="position-absolute top-50 translate-middle-y left-0px d-none d-md-block animation-float">
                             <!-- <img src="/images/main/demo-real-estate-sell-03.png" class="animation-float" alt> -->
                         </figcaption>
@@ -408,7 +431,7 @@
         </div>
     </section>
     <footer class="footer-light bg-gradient-very-light-gray pb-0">
-        <div class="container position-relative pt-3 pb-3 overlap-section md-mb-15px">
+        <!-- <div class="container position-relative pt-3 pb-3 overlap-section md-mb-15px">
             <div class="position-absolute left-0px top-0px background-no-repeat background-size-100 h-100 w-100 animation-float" style="background-image: url('/images/main/demo-real-estate-10.png')"></div>
 
             <div class="row row-cols-1 row-cols-lg-2 justify-content-center align-items-center bg-base-color pt-4 pb-4 ps-6 pe-6 lg-p-5 border-radius-6px g-0">
@@ -428,7 +451,7 @@
                 </div>
             </div>
 
-        </div>
+        </div> -->
         <div class="container">
             <div class="row align-items-center justify-content-center">
 
@@ -502,7 +525,12 @@
 
             <div class="row align-items-center pb-35px pt-10px">
                 <div class="col-xl-12  col-sm-6 text-center text-sm-start last-paragraph-no-margin fs-15 text-dark-gray order-3 order-md-1">
-                    <p class=" text-center">© Copyright 2024 Capital Trust Properties | Crafted By <a href="https://sparksolutions.lk/?i=3" target="_blank" class="text-dark-gray text-dark-gray-hover text-decoration-line-bottom fw-600">Spark Solutions</a></p>
+<p class="text-center">
+    © Copyright <?php echo date("Y"); ?> Capital Trust Properties | Crafted By 
+    <a href="https://sparksolutions.lk/?i=3" target="_blank" class="text-dark-gray text-dark-gray-hover text-decoration-line-bottom fw-600">
+        Spark Solutions
+    </a>
+</p>
                 </div>
             </div>
     </footer>
