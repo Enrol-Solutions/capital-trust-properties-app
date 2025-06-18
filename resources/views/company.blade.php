@@ -118,12 +118,37 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 order-2 order-lg-1 position-relative align-self-end" data-anime="{ &quot;effect&quot;: &quot;slide&quot;, &quot;color&quot;: &quot;#262b35&quot;, &quot;direction&quot;:&quot;tb&quot;, &quot;easing&quot;: &quot;easeOutQuad&quot;, &quot;delay&quot;:50}">
                     <figure class="position-relative m-0">
-                        <img src="/images/main/demo-real-estate-about-02.jpg" class="w-100" alt>
-                        <figcaption class="w-180px bg-white p-30px pt-20px border-radius-8px position-absolute top-150px right-minus-30px lg-right-0px overflow-hidden box-shadow-medium animation-float">
-                            <span class="alt-font fs-100 fw-700 text-white d-block position-relative z-index-1">12</span>
-                            <div class="alt-font fw-500 fs-24 d-block text-dark-gray lh-26 ls-minus-05px">Years of <span class="fw-700">experience.</span></div>
-                            <div class="h-150px w-150px border-radius-100 bg-base-color position-absolute left-minus-10px top-minus-50px z-index-0"></div>
-                        </figcaption>
+                       <figure class="position-relative m-0 overflow-hidden">
+    <!-- YouTube Video Section -->
+    <div class="ratio ratio-16x9 w-100 mb-30 h-400">
+        <img 
+            src="https://cdn.pixabay.com/photo/2016/08/26/15/06/home-1622401_1280.jpg" 
+            class="rounded-3" 
+            style="border: none; min-height: 400px; object-fit: cover"
+            allowfullscreen/>
+        
+    </div>
+
+    <!-- Experience Badge -->
+    <figcaption class="position-absolute top-50 end-0 translate-middle-y me-negative-3 me-lg-0 bg-white p-4 rounded-4 shadow-lg" 
+                style="width: 180px; transform-style: preserve-3d; margin: right 130px;">
+        <div class="position-relative z-2 " >
+            <span class="d-block fw-bold fs-1 text-success">12</span>
+            <div class="fw-medium fs-5 text-dark">
+                Years of <br>
+                <span class="fw-bold text-success">Experience</span>
+            </div>
+        </div>
+        
+        <!-- Decorative Elements -->
+        <div class="position-absolute start-0 top-0 translate-middle" 
+             style="width: 150px; height: 150px; background: rgba(40, 167, 69, 0.15); border-radius: 50%; z-index: 1;">
+        </div>
+        <div class="position-absolute start-0 top-0 translate-middle" 
+             style="width: 120px; height: 120px; background: rgba(25, 135, 84, 0.1); border-radius: 50%; z-index: 0;">
+        </div>
+    </figcaption>
+</figure>
                     </figure>
                 </div>
                 <div class="col-xl-5 offset-xl-1 col-lg-6 mb-8 order-1 order-lg-2 md-mb-40px" data-anime="{ &quot;opacity&quot;: [0,1], &quot;duration&quot;: 600, &quot;delay&quot;: 100, &quot;staggervalue&quot;: 300, &quot;easing&quot;: &quot;easeOutQuad&quot; }">
@@ -263,7 +288,7 @@
 
 
 
-    <section class="position-relative overflow-hidden">
+    <!-- <section class="position-relative overflow-hidden">
         <img src="/images/main/demo-real-estate-07.png" alt class="position-absolute left-100px top-50px z-index-minus-1" data-bottom-top="transform: translate3d(80px, 0px, 0px);" data-top-bottom="transform: translate3d(-180px, 0px, 0px);" />
         <img src="/images/main/demo-real-estate-08.png" alt class="position-absolute right-100px top-100px z-index-minus-1" data-bottom-top="transform:scale(1.4, 1.4) translate3d(0px, 0px, 0px);" data-top-bottom="transform:scale(1, 1) translate3d(-400px, 0px, 0px);" />
         <div class="container">
@@ -279,7 +304,7 @@
                                 </div>
                                 <div class="d-inline-block fs-12 text-uppercase bg-base-color ps-20px pe-20px lh-30 text-white border-radius-100px box-shadow-large">Feedback</div>
                             </div>
-                            <!-- <img src="/images/main/demo-real-estate-trustpilot.svg" class="h-30px mb-20px" alt /> -->
+                            <img src="/images/main/demo-real-estate-trustpilot.svg" class="h-30px mb-20px" alt />
                         </figcaption>
                     </figure>
                 </div>
@@ -380,7 +405,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> -->
 
     <section class="bg-gradient-quartz-white position-relative cus_mt_n65 z-index-0 border-radius-6px lg-border-radius-0px overflow-hidden">
         <div class="container">
@@ -644,7 +669,7 @@
         <div class="row justify-content-center align-items-center mt-5 md-mt-7" data-anime="{ &quot;translateY&quot;: [0, 0], &quot;opacity&quot;: [0,1], &quot;duration&quot;: 1200, &quot;delay&quot;: 0, &quot;staggervalue&quot;: 150, &quot;easing&quot;: &quot;easeOutQuad&quot; }">
             <div class="col-12 text-center align-items-center">
                 <div class="bg-dark-gray alt-font fs-12 fw-700 text-white text-uppercase border-radius-30px ps-20px pe-20px me-10px sm-m-5px d-inline-block align-middle"></div>
-                <div class="fs-20 text-dark-gray d-block d-md-inline-block align-middle alt-font fw-600">Subsidiar</div>
+                <!-- <div class="fs-20 text-dark-gray d-block d-md-inline-block align-middle alt-font fw-600">Subsidiar</div> -->
             </div>
         </div>
         </div>
@@ -652,7 +677,7 @@
 
 
     <footer class="footer-light bg-gradient-very-light-gray pb-0">
-        <div class="container position-relative pt-3 pb-3 overlap-section md-mb-15px">
+        <!-- <div class="container position-relative pt-3 pb-3 overlap-section md-mb-15px">
             <div class="position-absolute left-0px top-0px background-no-repeat background-size-100 h-100 w-100 animation-float" style="background-image: url('/images/main/demo-real-estate-10.png')"></div>
 
             <div class="row row-cols-1 row-cols-lg-2 justify-content-center align-items-center bg-base-color pt-4 pb-4 ps-6 pe-6 lg-p-5 border-radius-6px g-0">
@@ -672,17 +697,17 @@
                 </div>
             </div>
 
-        </div>
+        </div> -->
         <div class="container">
             <div class="row align-items-center justify-content-center">
 
-                <div class="col-auto d-flex flex-column flex-md-row align-items-center text-center text-md-start">
+                <!-- <div class="col-auto d-flex flex-column flex-md-row align-items-center text-center text-md-start">
                     <div class="text-dark-gray fs-28 alt-font fw-500">The Partner You Trust <span class="fw-700 text-decoration-line-bottom">In Real Estate</span></div>
                     <div class="bg-white border-radius-50px d-flex align-items-center p-10px ps-35px ms-20px md-ps-20px md-ms-15px box-shadow-medium sm-m-20px">
                         <a href="#" class="text-dark-gray fs-22 alt-font fw-500 me-10px overflow-hidden">Say, <span class="fw-700 w-121px text-start d-inline-block" data-fancy-text="{ &quot;effect&quot;: &quot;rotate&quot;, &quot;string&quot;: [&quot;Hello!&quot;, &quot;Ayubowan!&quot;, &quot;Wanakkam!&quot;] }"></span></a>
                         <span class="text-dark-gray h-45px w-45px text-center d-flex align-items-center justify-content-center border-radius-100 bg-base-color-transparent fs-20">&#128075;</span>
                     </div>
-                </div>
+                </div> -->
 
             </div>
             <div class="row justify-content-center mt-5 mb-4 sm-mb-35px">
@@ -742,7 +767,12 @@
 
             <div class="row align-items-center pb-35px pt-10px">
                 <div class="col-xl-12 col-sm-6 text-center text-sm-start last-paragraph-no-margin fs-15 text-dark-gray order-3 order-md-1">
-                    <p class=" text-center">© Copyright 2024 Capital Trust Properties | Crafted By <a href="https://sparksolutions.lk/?i=3" target="_blank" class="text-dark-gray text-dark-gray-hover text-decoration-line-bottom fw-600">Spark Solutions</a></p>
+<p class="text-center">
+    © Copyright <?php echo date("Y"); ?> Capital Trust Properties | Crafted By 
+    <a href="https://sparksolutions.lk/?i=3" target="_blank" class="text-dark-gray text-dark-gray-hover text-decoration-line-bottom fw-600">
+        Spark Solutions
+    </a>
+</p>
                 </div>
             </div>
     </footer>

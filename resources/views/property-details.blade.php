@@ -270,7 +270,7 @@
     <div class="container position-relative pt-3 pb-3 overlap-section md-mb-15px">
     <div class="position-absolute left-0px top-0px background-no-repeat background-size-100 h-100 w-100 animation-float" style="background-image: url('images/main/demo-real-estate-10.png')"></div>
     
-    <div class="row row-cols-1 row-cols-lg-2 justify-content-center align-items-center bg-base-color pt-4 pb-4 ps-6 pe-6 lg-p-5 border-radius-6px g-0">
+    <!-- <div class="row row-cols-1 row-cols-lg-2 justify-content-center align-items-center bg-base-color pt-4 pb-4 ps-6 pe-6 lg-p-5 border-radius-6px g-0">
     <div class="col-xl-6 col-lg-7 md-mb-25px sm-mb-15px position-relative text-center text-lg-start">
     <h3 class="alt-font fw-500 text-white ls-minus-1px mb-10px shadow-none" data-shadow-animation="true" data-animation-delay="700">Subscribe to <span class="fw-700 text-highlight d-inline-block">newsletter<span class="bg-white h-10px bottom-1px opacity-3 separator-animation"></span></span></h3>
     <span class="fs-20 text-white">Get updates regarding our properties.</span>
@@ -286,7 +286,7 @@
     </div>
     </div>
     </div>
-    
+     -->
     </div>
     <div class="container">
     <div class="row align-items-center justify-content-center">
@@ -361,7 +361,12 @@
     
     <div class="row align-items-center pb-35px pt-10px">
         <div class="col-xl-12 col-sm-6 text-center text-sm-start last-paragraph-no-margin fs-15 text-dark-gray order-3 order-md-1">
-        <p class=" text-center" >© Copyright 2024 Capital Trust Properties | Crafted By <a href="https://sparksolutions.lk/?i=3" target="_blank" class="text-dark-gray text-dark-gray-hover text-decoration-line-bottom fw-600">Spark Solutions</a></p>
+<p class="text-center">
+    © Copyright <?php echo date("Y"); ?> Capital Trust Properties | Crafted By 
+    <a href="https://sparksolutions.lk/?i=3" target="_blank" class="text-dark-gray text-dark-gray-hover text-decoration-line-bottom fw-600">
+        Spark Solutions
+    </a>
+</p>
         </div>
     </div>
     </footer>

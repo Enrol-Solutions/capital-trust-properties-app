@@ -110,7 +110,7 @@
                         </div>
                     </div>
                     <div class="col  mx-3">
-                        <textarea onkeyup="addPlaceholderText(this)" onclick="shiftPlaceholderText(this)" class="form-control form-control-lg bg-light fs-6" name="requirement">Enter your Name, Contact Details & Requirement</textarea>
+                        <textarea onkeyup="addPlaceholderText(this)" onclick="shiftPlaceholderText(this)" class="form-control form-control-lg bg-light fs-6" placeholder="Enter your Name, Contact Details & Requirement" name="requirement"></textarea>
                     </div>
                     <div class="input-group mb-5 d-flex justify-content-between">
                         <!-- <div class="form-check">

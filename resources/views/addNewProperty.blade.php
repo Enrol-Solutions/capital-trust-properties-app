@@ -67,9 +67,15 @@
     @if (session('error'))
     <div id="myElement" class="alert w-25 w-sm-75 alert-danger alert-dismissible text-center m-4 fade show position-fixed end-0 d-flex justify-content-center" role="alert">
         {{ session('error') }}
-        <!-- <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button> -->
     </div>
-    @endif
+    <script>
+        setTimeout(function() {
+            document.getElementById('myElement').style.display = 'none';
+            window.location.reload();
+        }, {{ session('delay', 30000) }});
+    </script>
+@endif
+
     <!----------------------- Main Container -------------------------->
     <div class="container d-flex justify-content-center align-items-center min-vh-100">
         <!----------------------- Login Container -------------------------->

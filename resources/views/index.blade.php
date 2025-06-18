@@ -9,7 +9,6 @@
   <meta name="author" content="ThemeZaa">
   <meta name="viewport" content="width=device-width,initial-scale=1.0" />
   <meta name="description" content="Discover premium real estate opportunities in Sri Lanka with the No.1 Real Estate Agent, Capital Trust Properties. Specializing in luxury apartments, commercial spaces, and land sales, we offer personalized services to help you find your dream property. Trusted by clients for our expertise and market knowledge.">
-
   <link rel="shortcut icon" href="/images/main/favicon.png">
   <!-- <link rel="apple-touch-icon" href="/images/apple-touch-icon-57x57.png">
 <link rel="apple-touch-icon" sizes="72x72" href="/images/apple-touch-icon-72x72.png">
@@ -118,25 +117,22 @@
       <div class="row align-items-center justify-content-center">
         <div class="col-lg-6 md-mb-50px position-relative" data-anime="{ &quot;effect&quot;: &quot;slide&quot;, &quot;color&quot;: &quot;#262b35&quot;, &quot;direction&quot;:&quot;lr&quot;, &quot;easing&quot;: &quot;easeOutQuad&quot;, &quot;delay&quot;:50}">
           <figure class="position-relative mb-0 overflow-hidden border-radius-6px">
-            <img src="/images/main/demo-real-estate-01.jpg" alt class="w-100">
-            <figcaption class="position-absolute border-radius-left-8px bg-base-color right-0px bottom-0px p-45px last-paragraph-no-margin">
-              <i class="feather icon-feather-home icon-medium text-white mb-15px d-block"></i>
-              <h4 class="alt-font fw-700 text-white mb-0 d-block">10000+</h4>
-              <p class="text-white">Properties listed for Sale & Rent</p>
-            </figcaption>
+            <img src="https://i.ibb.co/C5Y93FrY/demo-real-estate-09.png"  alt class="w-100">
+           
           </figure>
         </div>
         <div class="col-xl-5 offset-xl-1 col-lg-6" data-anime="{ &quot;opacity&quot;: [0,1], &quot;duration&quot;: 1200, &quot;delay&quot;: 100, &quot;staggervalue&quot;: 150, &quot;easing&quot;: &quot;easeOutQuad&quot; }">
           <span class="fs-20 d-inline-block mb-15px text-base-color">About Us</span>
-          <h2 class="alt-font fw-500 text-dark-gray ls-minus-1px shadow-none sm-w-85" data-shadow-animation="true" data-animation-delay="700">Helping you find your <span class="fw-700 text-highlight">dream property.<span class="bg-base-color h-10px bottom-10px opacity-3 separator-animation"></span></span></h2>
+          <h2 class="alt-font fw-500 text-dark-gray ls-minus-1px shadow-none sm-w-85" data-shadow-animation="true" data-animation-delay="700">Helping you find your <span class="fw-700 text-highlight text-green">dream property.<span class="bg-base-color h-10px bottom-10px opacity-3 separator-animation"></span></span></h2>
           <p class="w-80 md-w-100 cus_justi">At Capital Trust Properties, we  specialize in premier real estate solutions with a focus on buying, selling and investing.</p>
           <div class="mb-35px">
 
             <div class="icon-with-text-style-08 mb-10px">
               <div class="feature-box feature-box-left-icon-middle overflow-hidden">
-                <div class="feature-box-icon feature-box-icon-rounded w-40px h-40px bg-base-color-transparent rounded-circle me-15px">
-                  <i class="fa-solid fa-check fs-14 text-base-color"></i>
-                </div>
+               <div class="feature-box-icon feature-box-icon-rounded w-80px h-80px bg-white rounded-circle me-15px">
+  <img src="https://i.ibb.co/WrBfGwv/Whats-App-Image-2025-05-27-at-21-45-32-removebg-preview.png"  alt="Image" class="w-100 h-100 rounded-circle">
+</div>
+
                 <div class="feature-box-content">
                   <span class="text-dark-gray">Backed by over 10 years ofexperience, we offer expert guidance to help you navigate you property journey with confidence.</span>
                 </div>
@@ -146,9 +142,9 @@
 
             <div class="icon-with-text-style-08">
               <div class="feature-box feature-box-left-icon-middle overflow-hidden">
-                <div class="feature-box-icon feature-box-icon-rounded w-40px h-40px bg-base-color-transparent rounded-circle me-15px">
-                  <i class="fa-solid fa-check fs-14 text-base-color"></i>
-                </div>
+                  <div class="feature-box-icon feature-box-icon-rounded w-80px h-80px bg-white rounded-circle me-15px">
+  <img src="https://i.ibb.co/WrBfGwv/Whats-App-Image-2025-05-27-at-21-45-32-removebg-preview.png"  alt="Image" class="w-300 h-300 rounded-circle">
+</div>
                 <div class="feature-box-content">
                   <span class="text-dark-gray">Trusted by thousands of Sri Lankans, we're commited to maximizing your investment potential and ensuring your satisfaction every step of the way.</span>
                 </div>
@@ -171,6 +167,42 @@
     </div>
   </section>
 
+  <section class="py-3">
+ <div class="container">
+  <div class="row align-items-center justify-content-center">
+    <div class="col-12">
+      <div class="d-flex flex-wrap align-items-center justify-content-center">
+        
+        <!-- Title section -->
+        <div class="mx-4 my-2 text-start" style="min-width: 200px;">
+          <h6 class="mb-0" style="font-weight: 500;">Active Global</h6>
+          <h6 class="mb-0" style="color: green; font-weight: 600;">Real Estate Partners</h6>
+        </div>
+
+        <!-- Logo 1 -->
+        <div class="mx-4 my-2">
+          <img src="https://i.ibb.co/5hGjZp4x/Knight-Frank-Logo-svg-1.png" alt="Knight Frank" class="img-fluid" style="max-height: 50px;">
+        </div>
+
+        <!-- Logo 2 -->
+        <div class="mx-4 my-2">
+          <img src="https://i.ibb.co/LhDKSBLg/Colliers-Logo-Color-Gradient.png" alt="Colliers" class="img-fluid" style="max-height: 50px;">
+        </div>
+
+        <!-- Logo 3 -->
+        <div class="mx-4 my-2">
+          <img src="https://i.ibb.co/hRfN29KD/CBRE-Group-logo-till-2021-svg.png" alt="CBRE" class="img-fluid" style="max-height: 50px;">
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+      </div>
+    </div>
+  </div>
+</section>
 
   <section class="p-0 border-top border-color-extra-medium-gray">
     <div class="container">
@@ -264,7 +296,7 @@
     <div class="container">
       <div class="row align-items-center mb-6 xs-mb-8">
         <div class="col-md-8 text-center text-md-start sm-mb-20px" data-anime="{ &quot;translateX&quot;: [-30, 0], &quot;opacity&quot;: [0,1], &quot;duration&quot;: 1200, &quot;delay&quot;: 0, &quot;staggervalue&quot;: 300, &quot;easing&quot;: &quot;easeOutQuad&quot; }">
-          <h3 class="alt-font text-dark-gray fw-500 mb-0 ls-minus-1px shadow-none" data-shadow-animation="true" data-animation-delay="700">Explore Real Estate <span class="fw-700 text-highlight d-inline-block">For Sale and Rent<span class="bg-base-color h-10px bottom-1px opacity-3 separator-animation"></span></span></h3>
+          <h3 class="alt-font text-dark-gray fw-500 mb-0 ls-minus-1px shadow-none" data-shadow-animation="true" data-animation-delay="700">Explore Real Estate <span class="fw-700 text-highlight d-inline-block text-green">For Sale and Rent<span class="bg-base-color h-10px bottom-1px opacity-3 separator-animation"></span></span></h3>
         </div>
         <div class="col-md-4" data-anime="{ &quot;translateX&quot;: [30, 0], &quot;opacity&quot;: [0,1], &quot;duration&quot;: 1200, &quot;delay&quot;: 0, &quot;staggervalue&quot;: 300, &quot;easing&quot;: &quot;easeOutQuad&quot; }">
           <div class="d-flex justify-content-center justify-content-md-end">
@@ -281,7 +313,8 @@
           <div class="border-radius-6px overflow-hidden box-shadow-large">
             <div class="image position-relative">
               <a href="#">
-                <img style="height:175px; width:100%; object-fit:cover" src="/images/{{$prop->mainImage->image}}" alt>
+            <img style="height:175px; width:100%; object-fit:cover" src="./images/{{$prop->mainImage->image}}" alt>
+
               </a>
               @if($prop->deal_type=='forBuy')
               <div class="col-auto bg-base-color border-radius-50px ps-15px pe-15px text-uppercase alt-font fw-600 text-white fs-12 lh-24 position-absolute left-20px top-20px">Sell</div>
@@ -382,13 +415,13 @@
       <div class="row align-items-center justify-content-center mb-7">
         <div class="col-lg-5 md-mb-50px" data-anime="{ &quot;opacity&quot;: [0,1], &quot;duration&quot;: 1200, &quot;delay&quot;: 0, &quot;staggervalue&quot;: 150, &quot;easing&quot;: &quot;easeOutQuad&quot; }">
           <span class="fs-20 d-inline-block mb-15px text-base-color">Why choose our services?</span>
-          <h3 class="alt-font fw-500 text-dark-gray ls-minus-1px shadow-none" data-shadow-animation="true" data-animation-delay="700">We provide precise and trustworthy<span class="fw-700 text-highlight d-inline-block">property listings<span class="bg-base-color h-10px bottom-1px opacity-3 separator-animation"></span></span> details.</h3>
+          <h3 class="alt-font fw-500 text-dark-gray ls-minus-1px shadow-none" data-shadow-animation="true" data-animation-delay="700">We provide precise and trustworthy<span class="fw-700 text-highlight d-inline-block text-green">property listings<span class="bg-base-color h-10px bottom-1px opacity-3 separator-animation"></span></span> details.</h3>
           <div class="mt-50px mb-50px sm-mt-40px sm-mb-40px">
 
             <div class="icon-with-text-style-08 mb-30px">
               <div class="feature-box feature-box-left-icon overflow-hidden">
                 <div class="feature-box-icon">
-                  <img src="/images/main/demo-real-estate-icon-04.png" class="w-80px" alt>
+                  <img src="https://i.ibb.co/BK7Sj9nq/Whats-App-Image-2025-06-03-at-09-06-42.jpg" class="w-80px" alt>
                 </div>
                 <div class="feature-box-content last-paragraph-no-margin">
                   <span class="text-dark-gray fs-19 alt-font mb-5px fw-600 d-block">Expert Market knowledge</span>
@@ -401,7 +434,7 @@
             <div class="icon-with-text-style-08">
               <div class="feature-box feature-box-left-icon overflow-hidden">
                 <div class="feature-box-icon">
-                  <img src="/images/main/demo-real-estate-icon-05.png" class="w-80px" alt>
+                  <img src="https://i.ibb.co/BK7Sj9nq/Whats-App-Image-2025-06-03-at-09-06-42.jpg" class="w-80px" alt>
                 </div>
                 <div class="feature-box-content last-paragraph-no-margin">
                   <span class="text-dark-gray fs-19 alt-font mb-5px fw-600 d-block">Personalized Client Service</span>
@@ -417,27 +450,26 @@
           </div>
         </div>
         <div class="col-lg-6 offset-lg-1 position-relative" data-anime="{ &quot;effect&quot;: &quot;slide&quot;, &quot;color&quot;: &quot;#262b35&quot;, &quot;direction&quot;:&quot;lr&quot;, &quot;easing&quot;: &quot;easeOutQuad&quot;, &quot;delay&quot;:50}">
+<figure class="position-relative mb-0 border-radius-6px overflow-hidden" style="cursor: pointer;" onclick="window.open('https://www.youtube.com/watch?v=7Fh2RgvcmFc', '_blank');">
+  <img src="https://cdn.pixabay.com/photo/2016/08/26/15/06/home-1622401_1280.jpg" class="w-100 border-radius-6px" alt="Image description">
+  <div class="absolute-middle-center text-center rounded-circle video-icon-box video-icon-large">
+    <span class="video-icon bg-white">
+      <i class="fa-solid fa-play text-dark-gray"></i>
+      <span class="video-icon-sonar">
+        <span class="video-icon-sonar-bfr border border-color-white"></span>
+      </span>
+    </span>
+  </div>
+  <figcaption class="position-absolute text-center border-radius-5px right-25px bottom-25px ps-30px pe-30px blur-box bg-white-transparent">
+    <h1 class="mx-auto mb-0 fw-700 alt-font text-dark-gray mb-5px mt-25px">4.2</h1>
+    <div class="text-base-color fs-19 ls-2px lh-10">
+      <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+    </div>
+    <span class="text-dark-gray text-uppercase fs-13 fw-700 alt-font mb-15px d-inline-block">Reviews</span>
+  </figcaption>
+</figure>
 
-          <figure class="position-relative mb-0 border-radius-6px overflow-hidden">
-            <img src="/images/main/demo-real-estate-02.jpg" class="w-100 border-radius-6px" alt>
-            <a href="/https://www.youtube.com/watch?v=mJ7cGsYxbA0" class="absolute-middle-center text-center rounded-circle video-icon-box video-icon-large popup-vimeo">
-              <span>
-                <span class="video-icon bg-white">
-                  <i class="fa-solid fa-play text-dark-gray"></i>
-                  <span class="video-icon-sonar">
-                    <span class="video-icon-sonar-bfr border border-color-white"></span>
-                  </span>
-                </span>
-              </span>
-            </a>
-            <figcaption class="position-absolute text-center border-radius-5px right-25px bottom-25px ps-30px pe-30px blur-box bg-white-transparent">
-              <h1 class="mx-auto mb-0 fw-700 alt-font text-dark-gray mb-5px mt-25px">4.2</h1>
-              <div class="text-base-color fs-19 ls-2px lh-10">
-                <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-              </div>
-              <span class="text-dark-gray text-uppercase fs-13 fw-700 alt-font mb-15px d-inline-block">Reviews</span>
-            </figcaption>
-          </figure>
+
 
         </div>
       </div>
@@ -462,7 +494,7 @@
       <div class="row align-items-center">
         <div class="col-xl-4 col-lg-5 md-mb-50px sm-mb-35px">
           <span class="fs-20 d-inline-block mb-15px text-base-color">Let us help you find your dream property.</span>
-          <h3 class="alt-font fw-500 text-dark-gray ls-minus-1px w-90 xl-w-100 shadow-none" data-shadow-animation="true" data-animation-delay="700">Wether you are looking to rent or buy, we've got great places in the best neighborhoods.<span class="fw-700 text-highlight d-inline-block">find yours today<span class="bg-base-color h-10px bottom-1px opacity-3 separator-animation"></span></span></h3>
+          <h3 class="alt-font fw-500 text-dark-gray ls-minus-1px w-90 xl-w-100 shadow-none" data-shadow-animation="true" data-animation-delay="700">Wether you are looking to rent or buy, we've got great places in the best neighborhoods.<span class="fw-700 text-highlight d-inline-block text-green">find yours today<span class="bg-base-color h-10px bottom-1px opacity-3 separator-animation"></span></span></h3>
           <p class="mb-30px w-90 md-w-100">Explore all your options and find the place that truly feels like home.</p>
           <div class="d-flex">
 
@@ -481,7 +513,7 @@
                   <div class="col interactive-banner-style-05">
                     <figure class="m-0 hover-box overflow-hidden position-relative border-radius-6px">
                       <a href="#">
-                        <img src="/images/main/demo-real-estate-03.jpg" class="w-100 border-radius-6px" alt />
+                        <img src="https://i.ibb.co/Gfgst6Z1/colombo.png" class="w-100 border-radius-6px" alt />
                         <div class="position-absolute top-0px left-0px w-100 h-100 bg-gradient-gray-light-dark-transparent"></div>
                         <div class="position-absolute top-25px right-25px bg-orange border-radius-50px ps-5px pe-15px lh-28">
                           <div class="w-20px h-20px text-center bg-white rounded-circle d-inline-block align-middle text-orange lh-18">
@@ -505,7 +537,7 @@
                   <div class="col interactive-banner-style-05">
                     <figure class="m-0 hover-box overflow-hidden position-relative border-radius-6px">
                       <a href="#">
-                        <img src="/images/main/demo-real-estate-03.jpg" class="w-100 border-radius-6px" alt />
+                        <img src="https://i.ibb.co/7xf6Qvxd/galle.png" class="w-100 border-radius-6px" alt />
                         <div class="position-absolute top-0px left-0px w-100 h-100 bg-gradient-gray-light-dark-transparent"></div>
                         <div class="position-absolute top-25px right-25px bg-base-color border-radius-50px ps-5px pe-15px lh-28">
                           <div class="w-20px h-20px text-center bg-white rounded-circle d-inline-block align-middle text-base-color lh-18">
@@ -529,7 +561,7 @@
                   <div class="col interactive-banner-style-05">
                     <figure class="m-0 hover-box overflow-hidden position-relative border-radius-6px">
                       <a href="#">
-                        <img src="/images/main/demo-real-estate-03.jpg" class="w-100 border-radius-6px" alt />
+                        <img src="https://i.ibb.co/fJG2PSC/matara.png" class="w-100 border-radius-6px" alt />
                         <div class="position-absolute top-0px left-0px w-100 h-100 bg-gradient-gray-light-dark-transparent"></div>
                         <div class="position-absolute top-25px right-25px bg-base-color border-radius-50px ps-5px pe-15px lh-28">
                           <div class="w-20px h-20px text-center bg-white rounded-circle d-inline-block align-middle text-base-color lh-18">
@@ -548,7 +580,7 @@
                 </div>
 
 
-                <div class="swiper-slide">
+                <!-- <div class="swiper-slide">
 
                   <div class="col interactive-banner-style-05">
                     <figure class="m-0 hover-box overflow-hidden position-relative border-radius-6px">
@@ -569,14 +601,14 @@
                     </figure>
                   </div>
 
-                </div>
+                </div> -->
 
                 <div class="swiper-slide">
 
                   <div class="col interactive-banner-style-05">
                     <figure class="m-0 hover-box overflow-hidden position-relative border-radius-6px">
                       <a href="#">
-                        <img src="/images/main/demo-real-estate-03.jpg" class="w-100 border-radius-6px" alt />
+                        <img src="https://i.ibb.co/G4Rjwxf1/kandy.png" class="w-100 border-radius-6px" alt />
                         <div class="position-absolute top-0px left-0px w-100 h-100 bg-gradient-gray-light-dark-transparent"></div>
                         <div class="position-absolute top-25px right-25px bg-base-color border-radius-50px ps-5px pe-15px lh-28">
                           <div class="w-20px h-20px text-center bg-white rounded-circle d-inline-block align-middle text-base-color lh-18">
@@ -600,7 +632,7 @@
                   <div class="col interactive-banner-style-05">
                     <figure class="m-0 hover-box overflow-hidden position-relative border-radius-6px">
                       <a href="#">
-                        <img src="/images/main/demo-real-estate-03.jpg" class="w-100 border-radius-6px" alt />
+                        <img src="https://i.ibb.co/hRFSjMJS/gampaha.png" class="w-100 border-radius-6px" alt />
                         <div class="position-absolute top-0px left-0px w-100 h-100 bg-gradient-gray-light-dark-transparent"></div>
                         <div class="position-absolute top-25px right-25px bg-base-color border-radius-50px ps-5px pe-15px lh-28">
                           <div class="w-20px h-20px text-center bg-white rounded-circle d-inline-block align-middle text-base-color lh-18">
@@ -631,7 +663,7 @@
     <div class="container">
       <div class="row justify-content-center align-items-center mb-40px md-mb-30px">
         <div class="col text-center" data-anime="{ &quot;translateY&quot;: [50, 0], &quot;opacity&quot;: [0,1], &quot;duration&quot;: 1200, &quot;delay&quot;: 0, &quot;staggervalue&quot;: 150, &quot;easing&quot;: &quot;easeOutQuad&quot; }">
-          <h3 class="alt-font fw-500 text-dark-gray ls-minus-1px shadow-none" data-shadow-animation="true" data-animation-delay="700">Trusted for  consistently going above and beyond <span class="fw-700 text-highlight d-inline-block">for our clients<span class="bg-base-color h-10px bottom-1px opacity-3 separator-animation"></span></span></h3>
+          <h3 class="alt-font fw-500 text-dark-gray ls-minus-1px shadow-none" data-shadow-animation="true" data-animation-delay="700">Trusted for  consistently going above and beyond <span class="fw-700 text-highlight d-inline-block text-green">for our clients<span class="bg-base-color h-10px bottom-1px opacity-3 separator-animation"></span></span></h3>
         </div>
       </div>
       <div class="row g-0 row-cols-1 row-cols-lg-4 row-cols-sm-2 justify-content-center" data-anime="{ &quot;el&quot;: &quot;childs&quot;, &quot;translateX&quot;: [50, 0], &quot;opacity&quot;: [0,1], &quot;duration&quot;: 1200, &quot;delay&quot;: 0, &quot;staggervalue&quot;: 150, &quot;easing&quot;: &quot;easeOutQuad&quot; }">
@@ -726,14 +758,14 @@
         </div>
         <div class="col-lg-5 offset-lg-1 col-md-10 text-center text-lg-start" data-anime="{ &quot;translateY&quot;: [0, 0], &quot;opacity&quot;: [0,1], &quot;duration&quot;: 1200, &quot;delay&quot;: 100, &quot;staggervalue&quot;: 150, &quot;easing&quot;: &quot;easeOutQuad&quot; }">
           <span class="fs-20 d-inline-block mb-15px text-base-color">Clients feedback</span>
-          <h2 class="alt-font fw-500 text-dark-gray ls-minus-1px shadow-none" data-shadow-animation="true" data-animation-delay="700">Here's what our <span class="fw-700 text-highlight d-inline-block">clients<span class="bg-base-color h-10px bottom-4px opacity-3 separator-animation"></span></span> have to say</h2>
+          <h2 class="alt-font fw-500 text-dark-gray ls-minus-1px shadow-none" data-shadow-animation="true" data-animation-delay="700">Here's what our <span class="fw-700 text-highlight d-inline-block text-green">clients<span class="bg-base-color h-10px bottom-4px opacity-3 separator-animation"></span></span> have to say</h2>
           <div class="swiper position-relative" data-slider-options="{ &quot;autoHeight&quot;: true, &quot;loop&quot;: true, &quot;allowTouchMove&quot;: true, &quot;autoplay&quot;: { &quot;delay&quot;: 4000, &quot;disableOnInteraction&quot;: false }, &quot;navigation&quot;: { &quot;nextEl&quot;: &quot;.swiper-button-next&quot;, &quot;prevEl&quot;: &quot;.swiper-button-prev&quot; }, &quot;effect&quot;: &quot;fade&quot; }">
             <div class="swiper-wrapper mb-40px">
 
               <div class="swiper-slide review-style-08">
                 <p class="w-80 xl-w-90 lg-w-100">Capital Trust Properties led by Minoli Wickramasinghe and her team have been efficient and professional in helping us with our real estate requirements over the years. A leading Real Estate services provider in Sri Lanka, Capital Trust Properties is well equipped with a wealth of knowledge about the industry and handle a diverse portfolio of properties in the country. They are also well known for their ethical and professional conduct at all times.</p>
                 <div class="mt-20px">
-                  <img class="rounded-circle w-95px h-95px me-15px" src="/images/main/lolc.webp" alt>
+                  <img class="rounded-circle w-95px h-95px me-15px" src="https://images.crunchbase.com/image/upload/c_thumb,h_256,w_256,f_auto,g_face,z_0.7,q_auto:eco,dpr_1/lqavbydan90awwg6yltp" alt>
                   <div class="d-inline-block align-middle text-start">
                     <div class="text-dark-gray alt-font fs-20"><span class="fw-700">Gunendra </span>Jayasena</div>
                     <div class="review-star-icon fs-18">
@@ -810,7 +842,7 @@
     <div class="container overlap-gap-section">
       <div class="row align-items-center mb-2" data-anime="{ &quot;el&quot;: &quot;childs&quot;, &quot;translateY&quot;: [50, 0], &quot;opacity&quot;: [0,1], &quot;duration&quot;: 1200, &quot;delay&quot;: 0, &quot;staggervalue&quot;: 150, &quot;easing&quot;: &quot;easeOutQuad&quot; }">
         <div class="col-12 text-center">
-          <h3 class="alt-font fw-500 text-dark-gray ls-minus-1px shadow-none" data-shadow-animation="true" data-animation-delay="700">Latest <span class="fw-700 text-highlight d-inline-block">News<span class="bg-base-color h-10px bottom-1px opacity-3 separator-animation"></span></span></h3>
+          <h3 class="alt-font fw-500 text-dark-gray ls-minus-1px shadow-none" data-shadow-animation="true" data-animation-delay="700">Latest <span class="fw-700 text-highlight d-inline-block text-green ">News<span class="bg-base-color h-10px bottom-1px opacity-3 separator-animation"></span></span></h3>
         </div>
       </div>
       <div class="row">
@@ -861,7 +893,7 @@
 
 
   <footer class="footer-light bg-gradient-very-light-gray pb-0">
-    <div class="container position-relative pt-3 pb-3 overlap-section md-mb-15px">
+    <!-- <div class="container position-relative pt-3 pb-3 overlap-section md-mb-15px">
       <div class="position-absolute left-0px top-0px background-no-repeat background-size-100 h-100 w-100 animation-float" style="background-image: url('/images/main/demo-real-estate-10.png')"></div>
 
       <div class="row row-cols-1 row-cols-lg-2 justify-content-center align-items-center bg-base-color pt-4 pb-4 ps-6 pe-6 lg-p-5 border-radius-6px g-0">
@@ -893,6 +925,112 @@
           </div>
         </div>
 
+         <section class="pt-0 pb-50px mt-5 ps-6 pe-6 xxl-ps-2 xl-pe-2 lg-ps-30px lg-pe-30px xs-ps-15px xs-pe-15px"> -->
+     <!-- <div class="container-fluid">
+    <div class="row">
+ <div class="col-md-8 text-center text-md-start sm-mb-20px" data-anime="{ &quot;translateX&quot;: [-30, 0], &quot;opacity&quot;: [0,1], &quot;duration&quot;: 1200, &quot;delay&quot;: 0, &quot;staggervalue&quot;: 300, &quot;easing&quot;: &quot;easeOutQuad&quot; }">
+          <h3 class="alt-font text-dark-gray fw-500 mb-0 ls-minus-1px shadow-none" data-shadow-animation="true" data-animation-delay="700">Related <span class="fw-700 text-highlight d-inline-block text-green">Companies<span class="bg-base-color h-10px bottom-1px opacity-3 separator-animation"></span></span></h3>
+        </div>    </div>
+    <div class="row">
+        <div class="col-6 mt-2 swiper slider-four-slide portfolio-slider"
+            data-slider-options='{
+                "slidesPerView": 1,
+                "spaceBetween": 25,
+                "loop": true,
+                "pagination": { "el": ".slider-four-slide-pagination", "clickable": true },
+                "autoplay": { "delay": 3000, "disableOnInteraction": false },
+                "navigation": { "nextEl": ".slider-four-slide-next", "prevEl": ".slider-four-slide-prev" },
+                "keyboard": { "enabled": true, "onlyInViewport": true },
+                "breakpoints": {
+                    "1200": { "slidesPerView": 4 },
+                    "992": { "slidesPerView": 3 },
+                    "768": { "slidesPerView": 2 }
+                },
+                "effect": "slide"
+            }'>
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="portfolio-box transition-inner-all">
+                        <div class="portfolio-image bg-dark-gray">
+                            <img src="https://i.ibb.co/vv34MTxW/Whats-App-Image-2025-05-29-at-09-24-40.jpg" alt class="rounded" />
+                            <a href="#" class="position-absolute z-index-1 top-0px left-0px h-100 w-100"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="portfolio-box transition-inner-all">
+                        <div class="portfolio-image bg-dark-gray">
+                            <img src="https://i.ibb.co/RpsGRyTP/Whats-App-Image-2025-05-29-at-09-24-41.jpg" alt class="rounded" />
+                            <a href="#" class="position-absolute z-index-1 top-0px left-0px h-100 w-100"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="portfolio-box transition-inner-all">
+                        <div class="portfolio-image bg-dark-gray">
+                            <img src="https://i.ibb.co/mQTWz3q/Whats-App-Image-2025-05-29-at-09-24-42-1.jpg" alt class="rounded" />
+                            <a href="#" class="position-absolute z-index-1 top-0px left-0px h-100 w-100"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="portfolio-box transition-inner-all">
+                        <div class="portfolio-image bg-dark-gray">
+                            <img src="https://i.ibb.co/SX4srs2s/Whats-App-Image-2025-05-29-at-09-24-42.jpg" alt class="rounded" />
+                            <a href="#" class="position-absolute z-index-1 top-0px left-0px h-100 w-100"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="portfolio-box transition-inner-all">
+                        <div class="portfolio-image bg-dark-gray">
+                            <img src="https://i.ibb.co/BVs7jCL9/Whats-App-Image-2025-05-29-at-09-24-43-1.jpg" alt class="rounded" />
+                            <a href="#" class="position-absolute z-index-1 top-0px left-0px h-100 w-100"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="portfolio-box transition-inner-all">
+                        <div class="portfolio-image bg-dark-gray">
+                            <img src="https://i.ibb.co/JjGdS0ft/Whats-App-Image-2025-05-29-at-09-24-43-2.jpg" alt class="rounded" />
+                            <a href="#" class="position-absolute z-index-1 top-0px left-0px h-100 w-100"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="portfolio-box transition-inner-all">
+                        <div class="portfolio-image bg-dark-gray">
+                            <img src="https://i.ibb.co/4wNndDTb/Whats-App-Image-2025-05-29-at-09-24-43.jpg" alt class="rounded" />
+                            <a href="#" class="position-absolute z-index-1 top-0px left-0px h-100 w-100"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->
+
+<style>
+    .rounded {
+        border-radius: 10px !important; /* Adjust the value as needed */
+    }
+</style>
+
+        <div class="row justify-content-center align-items-center mt-5 md-mt-7" data-anime="{ &quot;translateY&quot;: [0, 0], &quot;opacity&quot;: [0,1], &quot;duration&quot;: 1200, &quot;delay&quot;: 0, &quot;staggervalue&quot;: 150, &quot;easing&quot;: &quot;easeOutQuad&quot; }">
+            <div class="col-12 text-center align-items-center">
+                <div class="bg-dark-gray alt-font fs-12 fw-700 text-white text-uppercase border-radius-30px ps-20px pe-20px me-10px sm-m-5px d-inline-block align-middle"></div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
       </div>
       <div class="row justify-content-center mt-5 mb-4 sm-mb-35px">
 
@@ -908,6 +1046,7 @@
           </div>
         </div>
 
+        
 
         <div class="col-6 col-lg-2 col-md-3 sm-mb-25px">
           <span class="alt-font fs-18 fw-600 d-block text-dark-gray mb-5px">Company</span>
@@ -942,7 +1081,11 @@
         <div class="col-6 col-lg-2 col-md-3">
           <span class="alt-font fs-18 fw-600 d-block text-dark-gray mb-10px">Say hello</span>
           <span class="d-block lh-normal">Need support?</span>
-          <a href="/cdn-cgi/l/email-protection.html#731a1d151c33171c1e121a1d5d101c1e" class="text-dark-gray text-decoration-line-bottom lh-22 d-inline-block mb-20px"><span class="" data-cfemail="fc95929a93bc9893919d9592d29f9391">properties@capitaltrust.lk</span></a>
+<a href="/cdn-cgi/l/email-protection.html#731a1d151c33171c1e121a1d5d101c1e" 
+   class="text-dark-gray text-decoration-line-bottom lh-22 d-inline-block mb-20px" 
+   style="font-size: 15px;">
+   <span data-cfemail="fc95929a93bc9893919d9592d29f9391">properties@capitaltrust.lk</span>
+</a>
           <span class="d-block lh-normal">Hotline</span>
           <a href="/tel:12345678910" class="text-dark-gray text-decoration-line-bottom lh-22 d-inline-block">+94 70 444 4555</a>
         </div>
@@ -951,7 +1094,12 @@
 
       <div class="row align-items-center pb-35px pt-10px">
         <div class="col-xl-12 col-sm-6 text-center text-sm-start last-paragraph-no-margin fs-15 text-dark-gray order-3 order-md-1">
-          <p class=" text-center">© Copyright 2024 Capital Trust Properties | Crafted By <a href="https://sparksolutions.lk/?i=3" target="_blank" class="text-dark-gray text-dark-gray-hover text-decoration-line-bottom fw-600">Spark Solutions</a></p>
+<p class="text-center">
+    © Copyright <?php echo date("Y"); ?> Capital Trust Properties | Crafted By 
+    <a href="https://sparksolutions.lk/?i=3" target="_blank" class="text-dark-gray text-dark-gray-hover text-decoration-line-bottom fw-600">
+        Spark Solutions
+    </a>
+</p>
         </div>
       </div>
   </footer>
