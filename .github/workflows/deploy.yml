@@ -21,14 +21,13 @@ jobs:
 
       - name: 🚀 SSH and Deploy to Lightsail
         run: |
-          ssh -o StrictHostKeyChecking=no ubuntu@54.179.119.176 'bash -s' << 'EOF'
+          ssh -o StrictHostKeyChecking=no ubuntu@54.179.119.176 << EOF
             set -e
 
             echo "✅ Connected to Lightsail via SSH"
 
             cd /var/www/capital-trust-properties-app
 
-            # Allow Git pulls in CI/CD
             git config --global --add safe.directory /var/www/capital-trust-properties-app
 
             echo "📦 Resetting local code"
@@ -51,4 +50,4 @@ jobs:
             sudo -n systemctl restart apache2
 
             echo "✅ Deployment complete"
-            EOF
+EOF
