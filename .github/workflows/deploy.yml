@@ -1,45 +1,31 @@
-name: Deploy Laravel to Lightsail
+- name: Deploy to Lightsail
+  run: |
+    ssh -o StrictHostKeyChecking=no ubuntu@54.179.119.176 'bash -s' << 'EOF'
+      set -e
 
-on:
-  push:
-    branches:
-      - production
+      echo "✅ SSH connected"
 
-jobs:
-  deploy:
-    runs-on: ubuntu-latest
+      cd /var/www/capital-trust-properties-app
+      git config --global --add safe.directory /var/www/capital-trust-properties-app
 
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v3
+      echo "📦 Resetting codebase"
+      git reset --hard HEAD
+      git clean -fd
 
-      - name: Setup SSH key
-        uses: webfactory/ssh-agent@v0.9.0
-        with:
-          ssh-private-key: ${{ secrets.LIGHTSAIL_SSH_KEY }}
+      echo "📥 Pulling latest from production"
+      git pull origin production
 
-      - name: Deploy to Lightsail
-        run: |
-          ssh -tt -o StrictHostKeyChecking=no ubuntu@54.179.119.176 << 'EOF'
-          set -e
-          cd /var/www/capital-trust-properties-app
+      echo "📦 Installing Composer dependencies"
+      composer install --no-interaction --prefer-dist --optimize-autoloader
 
-          git config --global --add safe.directory /var/www/capital-trust-properties-app
+      echo "⚙️ Running Artisan commands"
+      php artisan migrate --force
+      php artisan config:cache
+      php artisan route:cache
+      php artisan view:cache
 
-          # Discard local changes
-          git reset --hard HEAD
-          git clean -fd
-          git pull origin production
+      echo "🔁 Restarting Apache"
+      sudo -n systemctl restart apache2
 
-          composer install --no-interaction --prefer-dist --optimize-autoloader
-
-          php artisan migrate --force
-          php artisan config:cache
-          php artisan route:cache
-          php artisan view:cache
-
-          # ✅ Restart Apache (not nginx)
-          sudo systemctl restart apache2
-
-          echo "✅ Deployment complete"
-          EOF
+      echo "✅ Deployment complete"
+EOF
