@@ -22,31 +22,24 @@ jobs:
         run: |
           ssh -tt -o StrictHostKeyChecking=no ubuntu@54.179.119.176 << 'EOF'
           set -e
-          echo "✅ SSH connection successful"
           cd /var/www/capital-trust-properties-app
 
-          # Fix Git safe directory issue
           git config --global --add safe.directory /var/www/capital-trust-properties-app
 
-          # ⚠️ Discard all local changes
+          # Discard local changes
           git reset --hard HEAD
           git clean -fd
-
-          echo "📥 Pulling latest code from production branch..."
           git pull origin production
 
-          echo "📦 Installing dependencies..."
           composer install --no-interaction --prefer-dist --optimize-autoloader
 
-          echo "⚙️ Running Laravel commands..."
           php artisan migrate --force
           php artisan config:cache
           php artisan route:cache
           php artisan view:cache
 
-          echo "🔁 Restarting services..."
-          sudo -n systemctl reload php8.1-fpm || sudo -n systemctl reload php8.2-fpm
-          sudo -n systemctl restart nginx
+          # ✅ Restart Apache (not nginx)
+          sudo systemctl restart apache2
 
           echo "✅ Deployment complete"
           exit
