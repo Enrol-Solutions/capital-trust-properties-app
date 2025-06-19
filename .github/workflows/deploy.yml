@@ -1,30 +1,54 @@
-- name: Deploy to Lightsail
-  run: |
-    ssh -tt -o StrictHostKeyChecking=no ubuntu@54.179.119.176 << 'EOF'
-    set -e
-    echo "✅ SSH connected"
-    cd /var/www/capital-trust-properties-app
+name: Deploy Laravel App to Lightsail
 
-    git config --global --add safe.directory /var/www/capital-trust-properties-app
+on:
+  push:
+    branches:
+      - production
 
-    echo "📦 Resetting codebase"
-    git reset --hard HEAD
-    git clean -fd
+jobs:
+  deploy:
+    name: 🚀 Deploy to Lightsail Server
+    runs-on: ubuntu-latest
 
-    echo "📥 Pulling latest from production"
-    git pull origin production
+    steps:
+      - name: 📥 Checkout repository
+        uses: actions/checkout@v3
 
-    echo "📦 Installing Composer dependencies"
-    composer install --no-interaction --prefer-dist --optimize-autoloader
+      - name: 🔐 Setup SSH access to Lightsail
+        uses: webfactory/ssh-agent@v0.9.0
+        with:
+          ssh-private-key: ${{ secrets.LIGHTSAIL_SSH_KEY }}
 
-    echo "⚙️ Running Artisan commands"
-    php artisan migrate --force
-    php artisan config:cache
-    php artisan route:cache
-    php artisan view:cache
+      - name: 🚀 SSH and Deploy to Lightsail
+        run: |
+          ssh -o StrictHostKeyChecking=no ubuntu@54.179.119.176 'bash -s' << 'EOF'
+            set -e
 
-    echo "🔁 Restarting Apache"
-    sudo systemctl restart apache2
+            echo "✅ Connected to Lightsail via SSH"
 
-    echo "✅ Deployment complete"
-    EOF
+            cd /var/www/capital-trust-properties-app
+
+            # Allow Git pulls in CI/CD
+            git config --global --add safe.directory /var/www/capital-trust-properties-app
+
+            echo "📦 Resetting local code"
+            git reset --hard HEAD
+            git clean -fd
+
+            echo "📥 Pulling latest code from production branch"
+            git pull origin production
+
+            echo "📦 Installing dependencies"
+            composer install --no-interaction --prefer-dist --optimize-autoloader
+
+            echo "⚙️ Running Laravel optimizations"
+            php artisan migrate --force
+            php artisan config:cache
+            php artisan route:cache
+            php artisan view:cache
+
+            echo "🔁 Restarting Apache"
+            sudo -n systemctl restart apache2
+
+            echo "✅ Deployment complete"
+EOF
