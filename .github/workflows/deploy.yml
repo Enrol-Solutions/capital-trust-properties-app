@@ -42,5 +42,4 @@ jobs:
           sudo systemctl restart apache2
 
           echo "✅ Deployment complete"
-          exit
           EOF
