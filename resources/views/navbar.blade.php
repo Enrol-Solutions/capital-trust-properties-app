@@ -1,5 +1,5 @@
 <header>
-    <nav class="navbar navbar-expand-lg header-light bg-white border-bottom border-color-extra-medium-gray header-reverse" data-header-hover="light">
+    <nav class="navbar navbar-expand-lg header-light bg-white border-bottom border-color-extra-medium-gray header-reverse" data-header-hover="light"  style="background-color: black !important;">
         <div class="container-fluid">
             <div class="col-auto">
                 <a class="navbar-brand" href="/">
