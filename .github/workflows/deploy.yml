@@ -1,31 +1,30 @@
 - name: Deploy to Lightsail
   run: |
-    ssh -o StrictHostKeyChecking=no ubuntu@54.179.119.176 'bash -s' << 'EOF'
-      set -e
+    ssh -tt -o StrictHostKeyChecking=no ubuntu@54.179.119.176 << 'EOF'
+    set -e
+    echo "✅ SSH connected"
+    cd /var/www/capital-trust-properties-app
 
-      echo "✅ SSH connected"
+    git config --global --add safe.directory /var/www/capital-trust-properties-app
 
-      cd /var/www/capital-trust-properties-app
-      git config --global --add safe.directory /var/www/capital-trust-properties-app
+    echo "📦 Resetting codebase"
+    git reset --hard HEAD
+    git clean -fd
 
-      echo "📦 Resetting codebase"
-      git reset --hard HEAD
-      git clean -fd
+    echo "📥 Pulling latest from production"
+    git pull origin production
 
-      echo "📥 Pulling latest from production"
-      git pull origin production
+    echo "📦 Installing Composer dependencies"
+    composer install --no-interaction --prefer-dist --optimize-autoloader
 
-      echo "📦 Installing Composer dependencies"
-      composer install --no-interaction --prefer-dist --optimize-autoloader
+    echo "⚙️ Running Artisan commands"
+    php artisan migrate --force
+    php artisan config:cache
+    php artisan route:cache
+    php artisan view:cache
 
-      echo "⚙️ Running Artisan commands"
-      php artisan migrate --force
-      php artisan config:cache
-      php artisan route:cache
-      php artisan view:cache
+    echo "🔁 Restarting Apache"
+    sudo systemctl restart apache2
 
-      echo "🔁 Restarting Apache"
-      sudo -n systemctl restart apache2
-
-      echo "✅ Deployment complete"
-EOF
+    echo "✅ Deployment complete"
+    EOF
