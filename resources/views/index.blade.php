@@ -167,7 +167,7 @@
     </div>
   </section>
 
-  <section class="py-3">
+  <section class="py-3 d-none">
  <div class="container">
   <div class="row align-items-center justify-content-center">
     <div class="col-12">
