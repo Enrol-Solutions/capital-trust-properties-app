@@ -1035,7 +1035,14 @@
       <div class="row justify-content-center mt-5 mb-4 sm-mb-35px">
 
         <div class="col-lg-3 last-paragraph-no-margin md-mb-35px text-center text-lg-start">
-          <a href="#" class="footer-logo mb-10px d-inline-block"><img src="/images/main/logo.png" data-at2x="/images/main/logo.png" alt></a>
+          <div class="d-flex flex-row">
+            <a href="#" class="footer-logo mb-10px d-inline-block">
+              <img src="/images/main/logo.png" data-at2x="/images/main/logo.png" alt="Capital Trust Properties" style="width: 160px; max-height: none; aspect-ratio: 1 / 1; object-fit: contain;">
+            </a>
+            <a href="https://www.leadingre.com/" class="footer-logo mb-10px d-inline-block pl-4" target="blank" style="text-decoration: none; padding-left: 40px;">
+              <img src="https://www.leadingre.com/images/logos/lre_black_horiz_non_tm_2x.png" alt="Leading Real Estate Companies of the World" style="width: 160px; max-height: none; aspect-ratio: 1 / 1; object-fit: contain;">
+            </a>
+          </div>
           <p class="w-85 lg-w-100">The Partner You Trust In Real Estate</p>
           <div class="elements-social social-icon-style-02 mt-15px">
             <ul class="small-icon dark">
@@ -1095,10 +1102,7 @@
       <div class="row align-items-center pb-35px pt-10px">
         <div class="col-xl-12 col-sm-6 text-center text-sm-start last-paragraph-no-margin fs-15 text-dark-gray order-3 order-md-1">
 <p class="text-center">
-    © Copyright <?php echo date("Y"); ?> Capital Trust Properties | Crafted By 
-    <a href="https://sparksolutions.lk/?i=3" target="_blank" class="text-dark-gray text-dark-gray-hover text-decoration-line-bottom fw-600">
-        Spark Solutions
-    </a>
+    © Copyright <?php echo date("Y"); ?> Capital Trust Properties
 </p>
         </div>
       </div>
